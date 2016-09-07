@@ -8,4 +8,4 @@ RUN git clone -b manyuser https://github.com/breakwa11/shadowsocks.git
 
 EXPOSE 8388
 ENTRYPOINT ["/usr/bin/python","/shadowsocks/shadowsocks/server.py","-p","8388","-m","aes-256-cfb","-k"]
-#Usage:docker run -d -p 8388:8388 anorpi/alpine-ssr $PASSWORD
+#Usage:docker run -d -p 8388:8388 $IMAGEID $PASSWORD
