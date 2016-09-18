@@ -9,4 +9,4 @@ EXPOSE 8388
 ENTRYPOINT ["/usr/bin/python","/shadowsocks/shadowsocks/server.py","-p","8388","-m","aes-256-cfb","-k"]
 #Usage:
 #docker build -t="anorpi/alpine-ssr:v1.0" .
-#docker run -p 8388:8388  --name alpinessr -d anorpi/alpine-ssr:v1 YOURPASSWORD
+#docker run -p 8388:8388  --name alpine-ssr -d anorpi/alpine-ssr:v1.0 $YOURPASSWORD
