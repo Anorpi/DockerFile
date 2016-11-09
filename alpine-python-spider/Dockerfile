@@ -12,4 +12,5 @@ RUN pip install bs4
 
 ENTRYPOINT ["/usr/bin/python"]
 #Usage:
-#docker build -t="anorpi/alpine-python-spider:v1" .
+#docker build -t="anorpi/alpine-python-spider:v1.0" .
+#write the command in shell,<docker run --rm --name alpine-python-spider  -v $PWD:$PWD  anorpi/alpine-python-spider:v1.0 $PWD/$1>
